@@ -1,0 +1,112 @@
+@font-face {
+    font-family: netflix-sans-regular;
+    src: url("../fonts/NetflixSans_W_Rg.woff2");
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-y: hidden;
+}
+
+.root {
+    background-size: cover;
+    background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.8)),url("../images//background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    padding-top: 1%;
+    padding-left: 2vw;
+    padding-right: 4vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-logo {
+    width: 14%;
+    color: #e50914;
+}
+
+.btn-sign-in {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #e50914;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-titles-container {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.main-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.2em;
+    margin-bottom: 14px;
+    line-height: 1.1;
+}
+
+.main-subtitle {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.main-call-to-action {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+.main-email-container {
+    width: 55%;
+    height: fit-content;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-email-container-input {
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    font-size: 1em;
+}
+
+.btn-get-started {
+    cursor: pointer;
+    padding: 18px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn-get-started:hover {
+    background-color: #ff0b18;
+}
